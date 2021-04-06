@@ -1,7 +1,23 @@
 ---
 layout: post
-title: You're up and running!
+title: Hashing 101
 ---
+
+El hashing es una función matematica en la cual le damos un **INPUT**, y nos devuelve un **OUTPUT** fijo del mismo tamaño y unico para ese **INPUT** en especifico. Ese INPUT pudiera ser una imagen, un audio, o una contraseña.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 
