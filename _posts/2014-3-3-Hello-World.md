@@ -3,7 +3,7 @@ layout: post
 title: Hashing 101
 ---
 
-El hashing es una función matematica en la cual le damos un **INPUT**, y nos devuelve un **OUTPUT** fijo del mismo tamaño y unico para ese **INPUT** en especifico. Ese **INPUT** pudiera ser una imagen, un audio, una contraseña o cualquier tipo de archivo que tengamos.  
+El hashing ó _Message Digest_ es una función matematica en la cual le damos un **INPUT**, y nos devuelve un **OUTPUT** fijo del mismo tamaño y unico para ese **INPUT** en especifico. Ese **INPUT** pudiera ser una imagen, un audio, una contraseña o cualquier tipo de archivo que tengamos.  
 
 Digamos que tenemos la contraseña **123Abc**, y tenemos la contraseña **123abc**  
 
@@ -34,6 +34,13 @@ En este caso yo le instalo un programa gratutito a mí computadora llamado HashT
 
 
 **use case #2  **  
+Digamos que usted necesita crear un website Ej, Facebook , pero que no quiere que sus desarolladores y/o empleados, sepan la contraseña del usuario.
+
+Lo websites usualmente lo que comparan **NO** es la contraseña del usuario para saber sí entra o no en la pagina, sino el hashing de la contraseña.
+
+
+
+
 
 
 
@@ -46,6 +53,9 @@ En este caso yo le instalo un programa gratutito a mí computadora llamado HashT
 
 
 
+
+  
+Hoy en día en MD5 esta roto, lo que significa hay tecnicas para encontrar una colisión, que nos dan el resultado mas rapido que utilizando la fuerza bruta.
 
 
 
