@@ -9,7 +9,7 @@ Digamos que tenemos la contraseña **123Abc**, y tenemos la contraseña **123abc
 
 
 MD5 123Abc -> **876dfefef3ef6f4548f48bbddd856cef**  
-MD5 123abc -> **a906449d5769fa7361d7ecc6aa3f6d28**
+MD5 123abc -> **a906449d5769fa7361d7ecc6aa3f6d28**  
 
 Lo que significa que la funciones de hashing son case-sensitive, cuaquier cambio de mayusculas a minusculas cuenta.  
 En el caso de MD5, nos devuelve un largo fijo de 128 bits, pero sí contamos la cantidad de caracteres nos fijamos que tenemos 32.  
@@ -22,7 +22,7 @@ En el caso de MD5, nos devuelve un largo fijo de 128 bits, pero sí contamos la 
 
 Entre las funciones de hashing mas conocidas estab MD5, SHA2, RIPMED.
 
-**use case #1  **
+**use case #1  **  
 Digamos que usted quiere la ultima version de Ubuntu en un archivo ISO. Entra en un website que un amigo le recomendo https://www.thepiratebay.org/ y ve en los comentarios un mensaje que dice _"No baje eso que contiene Malware"_ ¿Sera verdad? ¿Como lo podemos corroborrar? Bueno si tenemos el hashing emitido por los desarolladores de Ubuntu para ese archivo ISO y lo comparamos cuando bajemos el archivo, podemos saber sí ha sido alterado o no.
 
 En este caso yo le instalo un programa gratutito a mí computadora llamado HashTab y verifico.
@@ -33,11 +33,11 @@ En este caso yo le instalo un programa gratutito a mí computadora llamado HashT
 
 
 
-**use case #2  **
+**use case #2  **  
 
 
 
-**use case #3  **
+**use case #3  **  
 
 
 
