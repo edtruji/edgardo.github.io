@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hashing 101
+title: TESTING jekyll-now
 ---
 
 El hashing ó _Message Digest_ es una función matematica a la cual le damos un **INPUT**, y nos devuelve un **OUTPUT** fijo del mismo tamaño y unico para ese **INPUT** en especifico. Ese **INPUT** pudiera ser una imagen, un audio, una contraseña o cualquier tipo de archivo que tengamos.  
